@@ -1,0 +1,191 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  outline: 1px solid red;
+}
+
+.page-header .head-menu .nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link, .nav-list .link {
+  text-decoration: none;
+}
+
+.page-header .head-menu, .page-header .head-menu .nav-list, .page-header .head-menu .nav-rigth, .nav-right, .page-header .slogan, .page-header .catalog, .page-header .firm-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-list .item, .nav-right .link {
+  font-family: Arimo, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.page-header .slogan {
+  font-family: Noto, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.36;
+  color: #ffffff;
+}
+
+.page-header .catalog .link {
+  font-family: Arimo, serif;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.page-header {
+  max-width: 1920px;
+  height: 100%;
+  padding-top: 25px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(51, 51, 51, 0.87)), to(rgba(51, 51, 51, 0.87))), url(../../images/header-image.jpg);
+  background-image: linear-gradient(rgba(51, 51, 51, 0.87), rgba(51, 51, 51, 0.87)), url(../../images/header-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.page-header .head-menu {
+  margin-bottom: 523px;
+}
+
+.page-header .head-menu .nav-list {
+  margin-right: 126px;
+}
+
+.page-header .head-menu .logo {
+  margin-right: 99px;
+}
+
+.nav-list .item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.nav-list .link {
+  color: inherit;
+}
+
+.nav-list .link:hover, .nav-list .link:focus {
+  color: red;
+}
+
+.nav-right .icon-search {
+  margin-right: 13px;
+}
+
+.nav-right .link {
+  margin-right: 40px;
+}
+
+.nav-right .link:hover, .nav-right .link:focus {
+  color: red;
+}
+
+.nav-right .icon-account {
+  margin-right: 25px;
+}
+
+.page-header .slogan {
+  margin: 0 auto 50px;
+}
+
+.page-header .catalog {
+  margin: 0 auto 80px;
+  padding: 0;
+  background-color: #333333;
+  border: 1px solid white;
+}
+
+.page-header .catalog .link {
+  display: block;
+  padding: 15px 35px;
+  color: #ffffff;
+}
+
+.catalog:hover {
+  background-color: #ffffff;
+}
+
+.catalog:hover .link {
+  color: #333333;
+}
+
+.page-header .firm-logo {
+  margin: 0;
+  padding: 15px 0;
+  border-top: 1px solid white;
+}
+
+.firm-image:not(:last-child) {
+  border-right: 1px solid white;
+  padding-right: 15px;
+}
+
+.firm-image:not(:first-child) {
+  padding-left: 15px;
+}
+/*# sourceMappingURL=main.css.map */

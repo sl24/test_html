@@ -1,0 +1,28 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-OJJO {
+  width: 4.154296875em;
+}
+
+.icon-Rectangle-13 {
+  width: 1.39453125em;
+}
+
+.icon-Rectangle-14 {
+  width: 1.5em;
+}

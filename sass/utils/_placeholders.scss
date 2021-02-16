@@ -1,0 +1,69 @@
+%list-style {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+%link-td-none {
+  text-decoration: none;
+}
+
+%centered-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+%nav-text {
+  font-family: Arimo, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+%slogan-text {
+  font-family: Noto, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.36;
+
+  color: $title-text-color;
+}
+
+%header-button {
+  font-family: Arimo, serif;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.1em;
+
+  color: $title-text-color;
+}
+
+// %section-title {
+//   margin-top: 0;
+//   margin-bottom: 50px;
+
+//   color: $title-text-color;
+//   font-weight: 700;
+//   font-size: 36px;
+//   line-height: 1.17;
+//   text-align: center;
+// }

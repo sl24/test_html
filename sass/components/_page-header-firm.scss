@@ -1,0 +1,18 @@
+.page-header {
+  .firm-logo {
+    margin: 0;
+    padding: 15px 0;
+    @extend %centered-flex;
+    border-top: 1px solid white;
+  }
+}
+
+.firm-image {
+  &:not(:last-child) {
+    border-right: 1px solid white;
+    padding-right: 15px;
+  }
+  &:not(:first-child) {
+    padding-left: 15px;
+  }
+}

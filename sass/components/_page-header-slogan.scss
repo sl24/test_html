@@ -1,0 +1,5 @@
+.page-header .slogan {
+  @extend %slogan-text;
+  @extend %centered-flex;
+  margin: 0 auto 50px;
+}
